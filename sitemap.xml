@@ -2,9 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2019-06-11T15:34:42+08:00</lastmod>
+    <loc>http://localhost:1313/2018/</loc>
+    <lastmod>2019-06-11T16:46:36+08:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2019-06-11T16:46:36+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2018/01/%E6%B5%8B%E8%AF%95%E5%8E%86%E5%8F%B2Post/</loc>
+    <lastmod>2019-06-11T16:46:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -65,6 +78,13 @@
   <url>
     <loc>http://localhost:1313/post/test/</loc>
     <lastmod>2019-06-11T11:12:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/%E6%B5%8B%E8%AF%95%E5%8E%86%E5%8F%B2Post2/</loc>
+    <lastmod>2017-06-11T16:55:55+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

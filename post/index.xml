@@ -29,5 +29,14 @@
       <description>1 Hello, World!</description>
     </item>
     
+    <item>
+      <title>测试历史Post2</title>
+      <link>http://localhost:1313/post/%E6%B5%8B%E8%AF%95%E5%8E%86%E5%8F%B2Post2/</link>
+      <pubDate>Sun, 11 Jun 2017 16:55:55 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E6%B5%8B%E8%AF%95%E5%8E%86%E5%8F%B2Post2/</guid>
+      <description>TEST!</description>
+    </item>
+    
   </channel>
 </rss>
