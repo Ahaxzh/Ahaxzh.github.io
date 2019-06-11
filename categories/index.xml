@@ -13,19 +13,19 @@
     
     <item>
       <title>Linux</title>
-      <link>http://localhost:1313/categories/linux/</link>
+      <link>http://localhost:1313/categories/Linux/</link>
       <pubDate>Tue, 11 Jun 2019 11:12:19 +0800</pubDate>
       
-      <guid>http://localhost:1313/categories/linux/</guid>
+      <guid>http://localhost:1313/categories/Linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mac</title>
-      <link>http://localhost:1313/categories/mac/</link>
+      <link>http://localhost:1313/categories/Mac/</link>
       <pubDate>Tue, 11 Jun 2019 11:12:19 +0800</pubDate>
       
-      <guid>http://localhost:1313/categories/mac/</guid>
+      <guid>http://localhost:1313/categories/Mac/</guid>
       <description></description>
     </item>
     
