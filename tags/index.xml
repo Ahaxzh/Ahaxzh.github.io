@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Terminal</title>
+      <link>http://localhost:1313/tags/Terminal/</link>
+      <pubDate>Thu, 13 Jun 2019 15:49:20 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/Terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hexo</title>
       <link>http://localhost:1313/tags/Hexo/</link>
       <pubDate>Tue, 11 Jun 2019 11:12:19 +0800</pubDate>
