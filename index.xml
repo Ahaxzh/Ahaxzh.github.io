@@ -23,10 +23,10 @@
     
     <item>
       <title>Mac插耳机没声音</title>
-      <link>http://localhost:1313/post/mac_core_audiod/</link>
+      <link>http://localhost:1313/post/maCoreAudiod/</link>
       <pubDate>Thu, 13 Jun 2019 15:49:20 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/mac_core_audiod/</guid>
+      <guid>http://localhost:1313/post/maCoreAudiod/</guid>
       <description>Mac今天插入耳机后没有声音，但是还能调节音量与播放暂停 各种尝试后无果，Google了下，找到了如下命令： 1 sudo killall coreaudiod 完美解决。</description>
     </item>
     
@@ -75,7 +75,7 @@
 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;fun (x: Int, y: Int): Int {
-  return x + y
+   return x + y
 }&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>BeforePublish - Ahaxzh - Life Is Strange!</title>
+  <title>Mac插耳机没声音 - Ahaxzh - Life Is Strange!</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,8 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Ahaxzh" /><meta name="description" content="In this post, I want to share how to use bindkeys command to solve a few issues when using Zsh.
-" />
+<meta name="author" content="Ahaxzh" /><meta name="description" content="Mac今天插入耳机后没有声音，但是还能调节音量与播放暂停 各种尝试后无果，Google了下，找到了如下命令： 1 sudo killall coreaudiod 完美解决。" />
 
 
 
@@ -27,7 +26,7 @@
 <meta name="generator" content="Hugo 0.55.6 with even 4.0.0" />
 
 
-<link rel="canonical" href="http://localhost:1313/post/beforePublish/" />
+<link rel="canonical" href="http://localhost:1313/post/maCoreAudiod/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,27 +38,27 @@
 
 
 
-<meta property="og:title" content="BeforePublish" />
-<meta property="og:description" content="In this post, I want to share how to use bindkeys command to solve a few issues when using Zsh." />
+<meta property="og:title" content="Mac插耳机没声音" />
+<meta property="og:description" content="Mac今天插入耳机后没有声音，但是还能调节音量与播放暂停 各种尝试后无果，Google了下，找到了如下命令： 1 sudo killall coreaudiod 完美解决。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/post/beforePublish/" />
-<meta property="article:published_time" content="2019-04-14T11:45:04&#43;08:00"/>
-<meta property="article:modified_time" content="2019-04-14T11:45:04&#43;08:00"/>
+<meta property="og:url" content="http://localhost:1313/post/maCoreAudiod/" />
+<meta property="article:published_time" content="2019-06-13T15:49:20&#43;08:00"/>
+<meta property="article:modified_time" content="2019-06-13T15:49:20&#43;08:00"/>
 
-<meta itemprop="name" content="BeforePublish">
-<meta itemprop="description" content="In this post, I want to share how to use bindkeys command to solve a few issues when using Zsh.">
-
-
-<meta itemprop="datePublished" content="2019-04-14T11:45:04&#43;08:00" />
-<meta itemprop="dateModified" content="2019-04-14T11:45:04&#43;08:00" />
-<meta itemprop="wordCount" content="207">
+<meta itemprop="name" content="Mac插耳机没声音">
+<meta itemprop="description" content="Mac今天插入耳机后没有声音，但是还能调节音量与播放暂停 各种尝试后无果，Google了下，找到了如下命令： 1 sudo killall coreaudiod 完美解决。">
 
 
+<meta itemprop="datePublished" content="2019-06-13T15:49:20&#43;08:00" />
+<meta itemprop="dateModified" content="2019-06-13T15:49:20&#43;08:00" />
+<meta itemprop="wordCount" content="62">
 
-<meta itemprop="keywords" content="" />
+
+
+<meta itemprop="keywords" content="CoreAudiod,Terminal," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="BeforePublish"/>
-<meta name="twitter:description" content="In this post, I want to share how to use bindkeys command to solve a few issues when using Zsh."/>
+<meta name="twitter:title" content="Mac插耳机没声音"/>
+<meta name="twitter:description" content="Mac今天插入耳机后没有声音，但是还能调节音量与播放暂停 各种尝试后无果，Google了下，找到了如下命令： 1 sudo killall coreaudiod 完美解决。"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -126,12 +125,15 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">BeforePublish</h1>
+      <h1 class="post-title">Mac插耳机没声音</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2019-04-14 </span>
-        
-          <span class="more-meta"> 207 words </span>
+        <span class="post-time"> 2019-06-13 </span>
+        <div class="post-category">
+            <a href="/categories/Mac/"> Mac </a>
+            <a href="/categories/Linux/"> Linux </a>
+            </div>
+          <span class="more-meta"> 62 words </span>
           <span class="more-meta"> 1 min read </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
       </div>
@@ -144,39 +146,32 @@
 <ul>
 <li>
 <ul>
-<li><a href="#can-not-use-home-and-end-keys-normally">Can not use HOME and END keys normally</a></li>
+<li><a href="#mac今天插入耳机后没有声音-但是还能调节音量与播放暂停">Mac今天插入耳机后没有声音，但是还能调节音量与播放暂停</a>
+<ul>
+<li><a href="#各种尝试后无果-google了下-找到了如下命令">各种尝试后无果，Google了下，找到了如下命令：</a></li>
+<li><a href="#完美解决">完美解决。</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
   </div>
 </div>
     <div class="post-content">
-      <p>In this post, I <code>want</code> to share how to use bindkeys command to solve a few issues when using Zsh.</p>
+      
 
-<h2 id="can-not-use-home-and-end-keys-normally">Can not use HOME and END keys normally</h2>
+<h2 id="mac今天插入耳机后没有声音-但是还能调节音量与播放暂停">Mac今天插入耳机后没有声音，但是还能调节音量与播放暂停</h2>
 
-<p>After using Zsh, I found that some terminals can not understand <code>Home</code> and End keys correctly, i.e., I can not go to the begining or end of the a line by pressing Home or End key.</p>
-
-<p>This is because the key codes that terminal recognizes when you press certain keys can not be recognized by zsh. You can manually find which key code is sent when you <code>press</code> a key. You can use showkey -a to print the key codes. Here is what it shows when I press Home and End keys.</p>
-
-<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-id sem consectetuer libero luctus adipiscing.</p>
-
-<p><a href="http://www.baidu.com">点击跳转至百度</a></p>
-
-<p>创建脚注格式类似这样 <sup class="footnote-ref" id="fnref:RUNOOB"><a href="#fn:RUNOOB">1</a></sup>。</p>
-<div class="footnotes">
-
-<hr />
-
-<ol>
-<li id="fn:RUNOOB">菜鸟教程 &ndash; 学的不仅是技术，更是梦想！！！
- <a class="footnote-return" href="#fnref:RUNOOB"><sup>[return]</sup></a></li>
-</ol>
+<h3 id="各种尝试后无果-google了下-找到了如下命令">各种尝试后无果，Google了下，找到了如下命令：</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">sudo killall coreaudiod</code></pre></td></tr></table>
 </div>
+</div>
+<h3 id="完美解决">完美解决。</h3>
+
     </div>
 
     <div class="post-copyright">
@@ -187,7 +182,7 @@ id sem consectetuer libero luctus adipiscing.</p>
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        2019-04-14
+        2019-06-13
         
     </span>
   </p>
@@ -198,19 +193,43 @@ id sem consectetuer libero luctus adipiscing.</p>
   </p>
 </div>
 <footer class="post-footer">
-      
+      <div class="post-tags">
+          <a href="/tags/CoreAudiod/">CoreAudiod</a>
+          <a href="/tags/Terminal/">Terminal</a>
+          </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/test/">
+        <a class="prev" href="/post/JustSoSo/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">美好生活</span>
+            <span class="prev-text nav-default">Life Is Strange!</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
-        
+        <a class="next" href="/post/iOS13test/">
+            <span class="next-text nav-default">IOS13测试</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
       </nav>
     </footer>
   </article>
         </div>
-        
+        <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    (function() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'ahaxzh';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  
+  
+
+  
 
       </div>
     </main>
