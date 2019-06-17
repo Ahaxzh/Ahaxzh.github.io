@@ -3,7 +3,20 @@
   
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2019-06-13T15:49:20+08:00</lastmod>
+    <lastmod>2019-06-14T17:07:26+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/JustSoSo/</loc>
+    <lastmod>2019-06-14T17:07:26+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2019-06-14T17:07:26+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -36,12 +49,6 @@
     <lastmod>2019-06-13T15:49:20+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2019-06-13T15:49:20+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -91,6 +98,13 @@
   <url>
     <loc>http://localhost:1313/post/test/</loc>
     <lastmod>2019-06-11T11:12:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/beforePublish/</loc>
+    <lastmod>2019-04-14T11:45:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

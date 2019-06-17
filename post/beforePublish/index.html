@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>CoreAudiod · Ahaxzh - Life Is Strange!</title>
+  <title>BeforePublish - Ahaxzh - Life Is Strange!</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Ahaxzh" /><meta name="description" content="Life Is Strange!" />
+<meta name="author" content="Ahaxzh" /><meta name="description" content="In this post, I want to share how to use bindkeys command to solve a few issues when using Zsh.
+" />
 
 
 
@@ -26,9 +27,7 @@
 <meta name="generator" content="Hugo 0.55.6 with even 4.0.0" />
 
 
-<link rel="canonical" href="http://localhost:1313/tags/CoreAudiod/" />
-  <link href="http://localhost:1313/tags/CoreAudiod/index.xml" rel="alternate" type="application/rss+xml" title="Ahaxzh - Life Is Strange!" />
-  <link href="http://localhost:1313/tags/CoreAudiod/index.xml" rel="feed" type="application/rss+xml" title="Ahaxzh - Life Is Strange!" />
+<link rel="canonical" href="http://localhost:1313/post/beforePublish/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -40,19 +39,27 @@
 
 
 
-<meta property="og:title" content="CoreAudiod" />
-<meta property="og:description" content="Life Is Strange!" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/tags/CoreAudiod/" />
+<meta property="og:title" content="BeforePublish" />
+<meta property="og:description" content="In this post, I want to share how to use bindkeys command to solve a few issues when using Zsh." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/beforePublish/" />
+<meta property="article:published_time" content="2019-04-14T11:45:04&#43;08:00"/>
+<meta property="article:modified_time" content="2019-04-14T11:45:04&#43;08:00"/>
 
-<meta property="og:updated_time" content="2019-06-13T15:49:20&#43;08:00"/>
+<meta itemprop="name" content="BeforePublish">
+<meta itemprop="description" content="In this post, I want to share how to use bindkeys command to solve a few issues when using Zsh.">
 
-<meta itemprop="name" content="CoreAudiod">
-<meta itemprop="description" content="Life Is Strange!">
 
+<meta itemprop="datePublished" content="2019-04-14T11:45:04&#43;08:00" />
+<meta itemprop="dateModified" content="2019-04-14T11:45:04&#43;08:00" />
+<meta itemprop="wordCount" content="207">
+
+
+
+<meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="CoreAudiod"/>
-<meta name="twitter:description" content="Life Is Strange!"/>
+<meta name="twitter:title" content="BeforePublish"/>
+<meta name="twitter:description" content="In this post, I want to share how to use bindkeys command to solve a few issues when using Zsh."/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -116,27 +123,95 @@
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          <section id="archive" class="archive">
-  <div class="archive-title tag">
-        <h2 class="archive-name">CoreAudiod</h2>
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">BeforePublish</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-04-14 </span>
+        
+          <span class="more-meta"> 207 words </span>
+          <span class="more-meta"> 1 min read </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
       </div>
+    </header>
 
-  <div class="archive-post">
-      <span class="archive-post-time">
-        2019-06-13
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/mac_core_audiod/" class="archive-post-link">
-          Mac插耳机没声音
-        </a>
-      </span>
-    </div>
-</section>
-
-<nav class="pagination">
-  
-  
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#can-not-use-home-and-end-keys-normally">Can not use HOME and END keys normally</a></li>
+</ul></li>
+</ul>
 </nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>In this post, I <code>want</code> to share how to use bindkeys command to solve a few issues when using Zsh.</p>
+
+<h2 id="can-not-use-home-and-end-keys-normally">Can not use HOME and END keys normally</h2>
+
+<p>After using Zsh, I found that some terminals can not understand <code>Home</code> and End keys correctly, i.e., I can not go to the begining or end of the a line by pressing Home or End key.</p>
+
+<p>This is because the key codes that terminal recognizes when you press certain keys can not be recognized by zsh. You can manually find which key code is sent when you <code>press</code> a key. You can use showkey -a to print the key codes. Here is what it shows when I press Home and End keys.</p>
+
+<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.</p>
+
+<p><a href="http://www.baidu.com">点击跳转至百度</a></p>
+
+<p>创建脚注格式类似这样 <sup class="footnote-ref" id="fnref:RUNOOB"><a href="#fn:RUNOOB">1</a></sup>。</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:RUNOOB">菜鸟教程 &ndash; 学的不仅是技术，更是梦想！！！
+ <a class="footnote-return" href="#fnref:RUNOOB"><sup>[return]</sup></a></li>
+</ol>
+</div>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Ahaxzh</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2019-04-14
+        
+    </span>
+  </p>
+  <p class="copyright-item">
+      <span class="item-title">Markdown</span>
+      <span class="item-content"><a class="link-to-markdown" href="http://localhost:1313/post/beforePublish/index.md" target="_blank">The Markdown version »</a></span>
+    </p>
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+<footer class="post-footer">
+      
+      <nav class="post-nav">
+        <a class="prev" href="/post/test/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">美好生活</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+      </nav>
+    </footer>
+  </article>
         </div>
         
 
@@ -200,6 +275,13 @@
   <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
   
 <script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
 
 
 

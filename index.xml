@@ -6,10 +6,20 @@
     <description>Recent content on Ahaxzh - Life Is Strange!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Jun 2019 15:49:20 +0800</lastBuildDate>
+    <copyright>Ahaxzh</copyright>
+    <lastBuildDate>Fri, 14 Jun 2019 17:07:26 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Life Is Strange!</title>
+      <link>http://localhost:1313/post/JustSoSo/</link>
+      <pubDate>Fri, 14 Jun 2019 17:07:26 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/JustSoSo/</guid>
+      <description>&lt;h2 id=&#34;life-is-strange&#34;&gt;Life is strange!&lt;/h2&gt;</description>
+    </item>
     
     <item>
       <title>Mac插耳机没声音</title>
@@ -26,7 +36,7 @@
       <pubDate>Tue, 11 Jun 2019 17:12:21 +0800</pubDate>
       
       <guid>http://localhost:1313/about/</guid>
-      <description>测试页面！！3 今天有课是一个网课返利公众号，目前支持极客时间（返 24 元 /课）、GitChat(返 25%/课)、掘金小册(返 30%/课)等。</description>
+      <description>Contact The best way to contact me is via Email: &amp;quot;%s@gmail.com&amp;quot; % &amp;quot;ahaxzh&amp;quot; (run it in Python). If you have questions about one of my posts, feel free to email me.</description>
     </item>
     
     <item>
@@ -35,7 +45,20 @@
       <pubDate>Tue, 11 Jun 2019 15:34:42 +0800</pubDate>
       
       <guid>http://localhost:1313/post/iOS13test/</guid>
-      <description>使用感受 1 2 3 1，有DarkMode了，总体夜间使用感觉非凡 2，3D Touch丢失，手感很差 3，滑动键盘在某些App中未能适用 问题总结 以上</description>
+      <description>&lt;h2 id=&#34;使用感受&#34;&gt;使用感受&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt; 有DarkMode了，总体夜间使用感觉非凡
+ 3D Touch丢失，手感很差
+ 滑动键盘在某些App中未能适用&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;问题总结&#34;&gt;问题总结&lt;/h2&gt;</description>
     </item>
     
     <item>
@@ -44,7 +67,27 @@
       <pubDate>Tue, 11 Jun 2019 11:12:19 +0800</pubDate>
       
       <guid>http://localhost:1313/post/test/</guid>
-      <description>1 Hello, World!</description>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;fun (x: Int, y: Int): Int {
+  return x + y
+}&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>BeforePublish</title>
+      <link>http://localhost:1313/post/beforePublish/</link>
+      <pubDate>Sun, 14 Apr 2019 11:45:04 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/beforePublish/</guid>
+      <description>&lt;p&gt;In this post, I &lt;code&gt;want&lt;/code&gt; to share how to use bindkeys command to solve a few issues when using Zsh.&lt;/p&gt;</description>
     </item>
     
   </channel>
