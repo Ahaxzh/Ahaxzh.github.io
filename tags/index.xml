@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ahaxzh - Life Is Strange!</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://ahaxzh.fun/tags/</link>
     <description>Recent content in Tags on Ahaxzh - Life Is Strange!</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh-cn</language>
     <copyright>Ahaxzh</copyright>
-    <lastBuildDate>Sun, 06 Aug 2023 00:45:49 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Aug 2023 00:45:49 +0800</lastBuildDate><atom:link href="https://ahaxzh.fun/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ahaxzh.fun</title>
-      <link>http://localhost:1313/tags/ahaxzh.fun/</link>
+      <link>https://ahaxzh.fun/tags/ahaxzh.fun/</link>
       <pubDate>Sun, 06 Aug 2023 00:45:49 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/ahaxzh.fun/</guid>
+      <guid>https://ahaxzh.fun/tags/ahaxzh.fun/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hello</title>
-      <link>http://localhost:1313/tags/hello/</link>
+      <link>https://ahaxzh.fun/tags/hello/</link>
       <pubDate>Sun, 06 Aug 2023 00:45:49 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/hello/</guid>
+      <guid>https://ahaxzh.fun/tags/hello/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>http://localhost:1313/tags/hugo/</link>
+      <link>https://ahaxzh.fun/tags/hugo/</link>
       <pubDate>Sun, 06 Aug 2023 00:45:49 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/hugo/</guid>
+      <guid>https://ahaxzh.fun/tags/hugo/</guid>
       <description></description>
     </item>
     
