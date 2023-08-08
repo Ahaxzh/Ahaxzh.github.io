@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ahaxzh - Life Is Strange!</title>
-    <link>https://ahaxzh.fun/tags/</link>
+    <link>https://blog.ues.one/tags/</link>
     <description>Recent content in Tags on Ahaxzh - Life Is Strange!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Ahaxzh</copyright>
-    <lastBuildDate>Sun, 06 Aug 2023 00:45:49 +0800</lastBuildDate><atom:link href="https://ahaxzh.fun/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ahaxzh.fun</title>
-      <link>https://ahaxzh.fun/tags/ahaxzh.fun/</link>
-      <pubDate>Sun, 06 Aug 2023 00:45:49 +0800</pubDate>
-      
-      <guid>https://ahaxzh.fun/tags/ahaxzh.fun/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sun, 06 Aug 2023 00:45:49 +0800</lastBuildDate><atom:link href="https://blog.ues.one/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hello</title>
-      <link>https://ahaxzh.fun/tags/hello/</link>
+      <link>https://blog.ues.one/tags/hello/</link>
       <pubDate>Sun, 06 Aug 2023 00:45:49 +0800</pubDate>
       
-      <guid>https://ahaxzh.fun/tags/hello/</guid>
+      <guid>https://blog.ues.one/tags/hello/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://ahaxzh.fun/tags/hugo/</link>
+      <link>https://blog.ues.one/tags/hugo/</link>
       <pubDate>Sun, 06 Aug 2023 00:45:49 +0800</pubDate>
       
-      <guid>https://ahaxzh.fun/tags/hugo/</guid>
+      <guid>https://blog.ues.one/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ues.one</title>
+      <link>https://blog.ues.one/tags/ues.one/</link>
+      <pubDate>Sun, 06 Aug 2023 00:45:49 +0800</pubDate>
+      
+      <guid>https://blog.ues.one/tags/ues.one/</guid>
       <description></description>
     </item>
     

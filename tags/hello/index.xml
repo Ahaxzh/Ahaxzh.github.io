@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hello on Ahaxzh - Life Is Strange!</title>
-    <link>https://ahaxzh.fun/tags/hello/</link>
+    <link>https://blog.ues.one/tags/hello/</link>
     <description>Recent content in hello on Ahaxzh - Life Is Strange!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Ahaxzh</copyright>
-    <lastBuildDate>Sun, 06 Aug 2023 00:45:49 +0800</lastBuildDate><atom:link href="https://ahaxzh.fun/tags/hello/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Aug 2023 00:45:49 +0800</lastBuildDate><atom:link href="https://blog.ues.one/tags/hello/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello</title>
-      <link>https://ahaxzh.fun/post/hello/</link>
+      <link>https://blog.ues.one/post/hello/</link>
       <pubDate>Sun, 06 Aug 2023 00:45:49 +0800</pubDate>
       
-      <guid>https://ahaxzh.fun/post/hello/</guid>
-      <description>1  Hello, World!   </description>
+      <guid>https://blog.ues.one/post/hello/</guid>
+      <description> 1 Hello, World! </description>
     </item>
     
   </channel>

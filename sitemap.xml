@@ -1,78 +1,78 @@
-<?xml-stylesheet type="text/xsl" href="https://ahaxzh.fun/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://blog.ues.one/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ahaxzh.fun/</loc>
+    <loc>https://blog.ues.one/</loc>
     <lastmod>2023-08-06T00:45:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://ahaxzh.fun/tags/ahaxzh.fun/</loc>
+    <loc>https://blog.ues.one/categories/Blog/</loc>
     <lastmod>2023-08-06T00:45:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://ahaxzh.fun/categories/Blog/</loc>
+    <loc>https://blog.ues.one/categories/</loc>
     <lastmod>2023-08-06T00:45:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://ahaxzh.fun/categories/</loc>
+    <loc>https://blog.ues.one/tags/hello/</loc>
     <lastmod>2023-08-06T00:45:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://ahaxzh.fun/post/hello/</loc>
+    <loc>https://blog.ues.one/post/hello/</loc>
     <lastmod>2023-08-06T00:45:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://ahaxzh.fun/tags/hello/</loc>
+    <loc>https://blog.ues.one/tags/hugo/</loc>
     <lastmod>2023-08-06T00:45:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://ahaxzh.fun/categories/Hugo/</loc>
+    <loc>https://blog.ues.one/categories/Hugo/</loc>
     <lastmod>2023-08-06T00:45:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://ahaxzh.fun/tags/hugo/</loc>
+    <loc>https://blog.ues.one/post/</loc>
     <lastmod>2023-08-06T00:45:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://ahaxzh.fun/post/</loc>
+    <loc>https://blog.ues.one/tags/</loc>
     <lastmod>2023-08-06T00:45:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://ahaxzh.fun/tags/</loc>
+    <loc>https://blog.ues.one/tags/ues.one/</loc>
     <lastmod>2023-08-06T00:45:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://ahaxzh.fun/about/</loc>
+    <loc>https://blog.ues.one/about/</loc>
     <lastmod>2019-06-11T17:12:21+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

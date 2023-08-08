@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Ahaxzh - Life Is Strange!</title>
-    <link>https://ahaxzh.fun/categories/</link>
+    <link>https://blog.ues.one/categories/</link>
     <description>Recent content in Categories on Ahaxzh - Life Is Strange!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Ahaxzh</copyright>
-    <lastBuildDate>Sun, 06 Aug 2023 00:45:49 +0800</lastBuildDate><atom:link href="https://ahaxzh.fun/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Aug 2023 00:45:49 +0800</lastBuildDate><atom:link href="https://blog.ues.one/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>https://ahaxzh.fun/categories/Blog/</link>
+      <link>https://blog.ues.one/categories/Blog/</link>
       <pubDate>Sun, 06 Aug 2023 00:45:49 +0800</pubDate>
       
-      <guid>https://ahaxzh.fun/categories/Blog/</guid>
+      <guid>https://blog.ues.one/categories/Blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://ahaxzh.fun/categories/Hugo/</link>
+      <link>https://blog.ues.one/categories/Hugo/</link>
       <pubDate>Sun, 06 Aug 2023 00:45:49 +0800</pubDate>
       
-      <guid>https://ahaxzh.fun/categories/Hugo/</guid>
+      <guid>https://blog.ues.one/categories/Hugo/</guid>
       <description></description>
     </item>
     

@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://ahaxzh.fun/sitemap.xml
+Sitemap: https://blog.ues.one/sitemap.xml
